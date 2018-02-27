@@ -41,21 +41,20 @@
                 <div class="card-body" style="text-align: center;">
                   <h2 class="sidebar-title" style="font-size: large; text-align:left;">Contact Me</h2>
                   <hr>
-                  <form action="mailto:joewrightart@gmail.com" method="post" enctype="text/plain">
-
+                  <form action="mailto:joewrightart@gmail.com" method="post" role="form">
                       <div class="form-group" style="text-align:left;">
-                        <label for="exampleFormControlInput1">Full Name</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="your name here">
+                        <label for="form_name">Full Name</label>
+                        <input type="text" class="form-control" id="form_name" placeholder="your name here">
                       </div>
                       <div class="form-group" style="text-align:left;">
-                          <label for="exampleFormControlInput1">Email Address</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="yourname@example.com">
+                          <label for="email">Email Address</label>
+                          <input type="email" class="form-control" id="email" placeholder="yourname@example.com">
                         </div>
                       <div class="form-group" style="text-align:left;">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placholder="your message here" rows="3"></textarea>
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" placholder="your message here" rows="3"></textarea>
                       </div>
-                      <input type="submit" value="Submit">
+                      <input type="submit" class="btn btn-success btn-send" value="Send message">
                     </form>
                 </div>
             </div>
