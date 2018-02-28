@@ -21,7 +21,6 @@
   text-align: center;
   font-weight: normal;
   background-image: url(../images/new_year_background.png);
-  width:100%;
   text-align:right;
 }
 
@@ -81,7 +80,7 @@ margin-left: 1em;
   top:60%; 
   width:100%; 
   height: auto; 
-  font-size:xx-large;
+  font-size:x-large;
   padding:0
 }
 
@@ -103,4 +102,10 @@ margin-left: 1em;
 .text-muted {
   text-align:center;
   padding:20px;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    width:100%
+  }
 }
