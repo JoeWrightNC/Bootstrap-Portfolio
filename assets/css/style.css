@@ -1,5 +1,9 @@
 /*navbar css*/
 
+body {
+  font-family:"Josefin Sans", sans-serif;
+}
+
 .navbar {
   background-image: url(../images/new_year_background.png);
   position:fixed; 
