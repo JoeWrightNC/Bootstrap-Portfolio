@@ -8,12 +8,13 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
   </head>
 
   <body>
   <!--navbar header start-->
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-image: url(images/new_year_background.png); position:fixed; top:0; z-index:100; width:100%">
+  <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand"><h1>Joe Wright</h1></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,23 +35,23 @@
     </nav>
 
     <!--main content area start-->
-    <div class-"container" style="background-image: url(images/hypnotize.png); height:750px; position:relative; top:70px;">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12 col-lg-9">
-            <div class="card" style="margin: 3%">
-                <div class="card-body" style="text-align: center;">
-                  <h2 class="sidebar-title" style="font-size: large; text-align:left;">Contact Me</h2>
+            <div class="card">
+                <div class="card-body">
+                  <h3 class="sidebar-title">Contact Me</h3>
                   <hr>
                   <form action="mailto:joewrightart@gmail.com" method="post" role="form">
-                      <div class="form-group" style="text-align:left;">
+                      <div class="form-group">
                         <label for="form_name">Full Name</label>
                         <input type="text" class="form-control" id="form_name" placeholder="your name here">
                       </div>
-                      <div class="form-group" style="text-align:left;">
+                      <div class="form-group">
                           <label for="email">Email Address</label>
                           <input type="email" class="form-control" id="email" placeholder="yourname@example.com">
                         </div>
-                      <div class="form-group" style="text-align:left;">
+                      <div class="form-group">
                         <label for="message">Message</label>
                         <textarea class="form-control" id="message" placholder="your message here" rows="3"></textarea>
                       </div>
@@ -60,14 +61,14 @@
             </div>
         </div>
         <div class="col-12 col-lg-3">
-            <div class="card" style="margin: 9%">
+            <div class="card">
                 <div class="card-body" style="text-align: center;">
-                  <h2 class="sidebar-title" style="font-size: large">Connect with me</h2>
+                  <h3 class="sidebar-title">Connect with me</h3>
                   <hr>
                   <div>
-                    <a href="https://www.linkedin.com/in/joewrightnc/"><img alt="LinkedIn" src="images/linkedin.png" width="42" height="42"></a>
-                    <a href="https://github.com/JoeWrightNC/"><img alt="GitHub" src="images/Octocat.png" width="42" height="42"></a>
-                    <a href="https://stackoverflow.com/users/9194777/joewrightnc"><img alt="StackOverflow" src="images/stack.png" width="42" height="42"></a>                
+                    <a href="https://www.linkedin.com/in/joewrightnc/"><img alt="LinkedIn" src="assets/images/linkedin.png" width="50" height="50"></a>
+                    <a href="https://github.com/JoeWrightNC/"><img alt="GitHub" src="assets/images/Octocat.png" width="50" height="50"></a>
+                    <a href="https://stackoverflow.com/users/9194777/joewrightnc"><img alt="StackOverflow" src="assets/images/stack.png" width="50" height="50"></a>                
                   </div>
                 </div>
             </div>
@@ -78,9 +79,8 @@
     </div>
 
     <!--footer start-->
-    <footer class="footer" style= "color:black; background-image:url(images/new_year_background.png); position:fixed; bottom:0; height:60px; width:100%">
-      <div class="container">
-          <span class="text-muted" style="text-align:center; padding:20px;"><h6>Copyright ©2018 Joe Wright</h6></span>
+    <footer class="footer">
+          <span class="text-muted"><h6>Copyright ©2018 Joe Wright</h6></span>
       </div>
     </footer>
 

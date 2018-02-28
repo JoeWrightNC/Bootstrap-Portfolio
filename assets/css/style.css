@@ -1,0 +1,106 @@
+/*navbar css*/
+
+.navbar {
+  background-image: url(../images/new_year_background.png);
+  position:fixed; 
+  top:0; 
+  z-index:100; 
+  width:100%;
+}
+
+.navbar-brand {
+  background-image: url(../images/diagonal_striped_brick.png);
+}
+
+.navbar-nav {
+  position:fixed;
+  right:0;
+  color:#333;
+  vertical-align: middle;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;
+  background-image: url(../images/new_year_background.png);
+  width:100%;
+  text-align:right;
+}
+
+.navbar-nav ul li {
+display: inline-block;
+padding-left: 1em;
+margin-left: 1em;
+}
+
+/*index jumbotron css*/
+.container-fluid {
+  background-image: url(../images/hypnotize.png); 
+  height:auto;
+  position:relative; 
+  top:70px;
+  margin-right:0;
+}
+
+.jumbotron {
+  background-color:white !important;
+  margin-top:70px;
+  margin-bottom:100px;
+  margin-right:5%;
+  margin-left:5%;
+}
+
+.about-image {
+  margin-right:7%;
+}
+
+.btn {
+  background-image:url(../images/spiration-light.png); 
+  color:black; 
+  border:black;
+}
+
+/*connect card css*/
+.card {
+  text-align:center !important;
+  margin-top:70px;
+  margin-bottom:100px;
+  margin-right:5%;
+  margin-left:5%;
+}
+
+/*portfolio page css*/
+.port-column {
+  padding-right:5%;
+  padding-left:5%;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.card-title {
+  background-color:lightslategray; 
+  position:absolute; 
+  top:60%; 
+  width:100%; 
+  height: auto; 
+  font-size:xx-large;
+  padding:0
+}
+
+/*contact page css*/
+.form-group {
+  text-align: left;
+}
+
+/*footer css*/
+.footer {
+  color:black; 
+  background-image:url(../images/new_year_background.png); 
+  position:fixed; 
+  bottom:0; 
+  height:60px; 
+  width:100%
+}
+
+.text-muted {
+  text-align:center;
+  padding:20px;
+}
