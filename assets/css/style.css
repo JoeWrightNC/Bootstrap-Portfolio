@@ -89,6 +89,9 @@ margin-left: 1em;
   padding-top:0;
   padding-bottom:0;
 }
+.port-column a {
+  color:white;
+}
 
 .card-title {
   font-family: 'Calligraffitti', cursive;
